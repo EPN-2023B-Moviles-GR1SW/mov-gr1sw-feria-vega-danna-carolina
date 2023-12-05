@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">b2023-gr1sw-dcfv</string>
-
+    <string name="app_name">My Application</string>
 
     <string name="hello">Hello World</string>
 
