@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">b2023-gr1sw-dcfv</string>
-
-
     <string name="hello">Hello World</string>
-
     <color name="fondo">#DA2C2C</color>
     <color name="texto">#FFFFFFFF</color>
+    <string-array name="string_array_opciones_dialogo">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
 </resources>

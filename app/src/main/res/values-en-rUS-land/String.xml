@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">My Application</string>
-
-    <string name="hello">Hello Earth</string>
-
-    <color name="fondo">#8E97C8</color>
-    <color name="texto">#0C0B0B</color>
-</resources>

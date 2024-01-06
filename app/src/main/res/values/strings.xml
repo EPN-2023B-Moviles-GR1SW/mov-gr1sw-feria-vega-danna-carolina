@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-
-    <string name="hello">Hello World</string>
-
-    <color name="fondo">#DA2C2C</color>
-    <color name="texto">#FFFFFFFF</color>
-</resources>
