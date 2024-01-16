@@ -1,2 +1,2 @@
-Windows,ppp,5,Thu May 05 00:00:00 ECT 2005,true,5.0
+Windows,Point,5,Thu May 05 00:00:00 ECT 2005,false,8.2
 Windows,jdcbw,4,Sat Jan 01 00:00:00 ECT 2000,true,4.3

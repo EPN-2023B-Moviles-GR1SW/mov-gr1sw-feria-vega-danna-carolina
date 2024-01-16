@@ -41,19 +41,23 @@
         android:id="@+id/btn_ir_intent_implicito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="I. IMPLICITO"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        tools:layout_editor_absoluteY="257dp" />
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <Button
         android:id="@+id/btn_ir_intent_explicito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
         android:text="I. EXPLICITO"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        tools:layout_editor_absoluteY="179dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_ir_intent_implicito"
+        app:layout_constraintEnd_toEndOf="@+id/btn_ir_intent_implicito"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_ir_intent_implicito" />
 
     <Button
         android:id="@+id/btn_sqlite"
@@ -66,4 +70,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btn_revcycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R. VIEW"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sqlite"
+        app:layout_constraintStart_toStartOf="@+id/btn_sqlite"
+        tools:layout_editor_absoluteY="224dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

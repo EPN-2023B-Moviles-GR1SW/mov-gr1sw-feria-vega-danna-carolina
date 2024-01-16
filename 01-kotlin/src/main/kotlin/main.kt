@@ -188,28 +188,6 @@ fun main() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -244,6 +222,7 @@ abstract class Numeros( // Constructor PRIMARIO
         numeroUno; numeroDos; // sin el "this", es lo mismo
         println("Inicializando")
     }
+
 }
 
 
@@ -255,7 +234,6 @@ class Suma( // Constructor Primario Suma
         this.numeroUno; numeroUno;
         this.numeroDos; numeroDos;
     }
-
     constructor(//  Segundo constructor
         uno: Int?, // parametros
         dos: Int // parametros
@@ -265,7 +243,6 @@ class Suma( // Constructor Primario Suma
     ) { // si necesitamos bloque de codigo lo usamos
         numeroUno;
     }
-
     constructor(//  tercer constructor
         uno: Int, // parametros
         dos: Int? // parametros
@@ -305,7 +282,9 @@ class Suma( // Constructor Primario Suma
             historialSumas.add(valorNuevaSuma)
         }
     }
+
 }
+
 
 
 

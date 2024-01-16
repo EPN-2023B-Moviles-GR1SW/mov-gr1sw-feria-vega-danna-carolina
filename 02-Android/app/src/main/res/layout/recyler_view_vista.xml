@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Nombre"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_descripcion"
+        app:layout_constraintEnd_toStartOf="@+id/tv_descripcion"
+        app:layout_constraintTop_toTopOf="@+id/tv_descripcion" />
+
+    <TextView
+        android:id="@+id/tv_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Likes"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_descripcion"
+        app:layout_constraintStart_toEndOf="@+id/tv_descripcion"
+        app:layout_constraintTop_toTopOf="@+id/tv_descripcion" />
+
+    <Button
+        android:id="@+id/btn_dar_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="DAR LIKE"
+        app:layout_constraintEnd_toEndOf="@+id/tv_descripcion"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/tv_descripcion"
+        app:layout_constraintTop_toBottomOf="@+id/tv_descripcion" />
+</androidx.constraintlayout.widget.ConstraintLayout>
