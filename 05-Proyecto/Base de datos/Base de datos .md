@@ -1,0 +1,1 @@
+Aquí se ha creado el modelo de base de datos, tanto conceptual como físico, utilizando la herramienta Power Designer. En esta carpeta se encuentran ambos archivos, además de capturas del modelo de la base de datos.
