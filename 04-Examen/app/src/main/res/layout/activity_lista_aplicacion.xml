@@ -48,13 +48,13 @@
         android:id="@+id/btn_anadir_aplicacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="236dp"
+        android:layout_marginStart="96dp"
         android:layout_marginBottom="32dp"
         android:background="#A62CD1"
-        android:text="AÑADIR"
+        android:text="Añadir"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btn_home_list_aplicaciones" />
 
     <ImageView
         android:id="@+id/imageView3"
