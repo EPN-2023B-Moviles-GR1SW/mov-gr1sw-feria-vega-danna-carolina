@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mi_editar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Editar" />
+    <item
+        android:id="@+id/mi_eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar" />
+</menu>

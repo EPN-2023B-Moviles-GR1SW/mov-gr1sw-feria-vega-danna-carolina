@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3414D88">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="214dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+        app:srcCompat="@drawable/so" />
+
+    <Button
+        android:id="@+id/btn_lv_aplicaciones"
+        android:layout_width="159dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:background="#173EA1"
+        android:shadowColor="#000000"
+        android:text="Aplicaciones"
+        android:textColor="#FAF8F8"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_lv_SO"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_lv_SO"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lv_SO" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:background="#FFFFFF"
+        android:text="Gestor de Sistemas Operativos"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_lv_SO"
+        android:layout_width="159dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:background="#3BB30A"
+        android:shadowColor="#000000"
+        android:text="Sistemas Operativos"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_lista_aplicaciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52FF9800"
+    tools:context=".ListaAplicacion">
+
+    <ListView
+        android:id="@+id/lv_lista_aplicaciones"
+        android:layout_width="337dp"
+        android:layout_height="334dp"
+        android:hapticFeedbackEnabled="false"
+        android:headerDividersEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="237dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="Aplicaciones"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btn_home_list_aplicaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#3F51B5"
+        android:text="Regresar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_anadir_aplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginBottom="32dp"
+        android:background="#A62CD1"
+        android:text="AÑADIR"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="171dp"
+        android:layout_height="135dp"
+        android:src="@drawable/aplication"
+        app:layout_constraintBottom_toTopOf="@+id/lv_lista_aplicaciones"
+        app:layout_constraintEnd_toEndOf="@+id/lv_lista_aplicaciones"
+        app:layout_constraintStart_toStartOf="@+id/lv_lista_aplicaciones" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
