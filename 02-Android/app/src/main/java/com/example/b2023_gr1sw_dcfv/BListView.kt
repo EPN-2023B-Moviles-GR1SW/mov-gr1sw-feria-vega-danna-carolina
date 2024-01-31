@@ -5,14 +5,12 @@ import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ContextMenu
-import android.view.ContextMenu.ContextMenuInfo
 import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
-import androidx.compose.material3.Snackbar
 import com.google.android.material.snackbar.Snackbar
 
 class BListView : AppCompatActivity() {
@@ -81,7 +79,7 @@ class BListView : AppCompatActivity() {
     fun mostrarSnackbar(texto:String){
         Snackbar
             .make(
-                findViewById(R.id.lv_list_view), //view
+                findViewById(R.id.lv_firestore), //view
                 texto, //texto
                 Snackbar.LENGTH_LONG //tiempo
             )
@@ -91,7 +89,7 @@ class BListView : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_blist_view)
 
-        val listView = findViewById<ListView>(R.id.lv_list_view)
+        val listView = findViewById<ListView>(R.id.lv_firestore)
         val adaptador = ArrayAdapter(
             this, //contexto
             android.R.layout.simple_list_item_1,
