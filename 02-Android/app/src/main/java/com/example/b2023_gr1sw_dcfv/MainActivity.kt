@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
     fun mostrarSnackbar(texto:String){
         Snackbar.make(
             findViewById(R.id.id_layout_main),
