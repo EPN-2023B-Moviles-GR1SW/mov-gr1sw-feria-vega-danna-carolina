@@ -20,7 +20,7 @@ class BaseDeDatos{
                 Aplicacion(
                     1, "Word", 1
                 )
-            )
+            )/*
             arregloAplicaciones.add(
                 Aplicacion(
                     2, "Excel", 2
@@ -30,18 +30,18 @@ class BaseDeDatos{
                 Aplicacion(
                     3, "Notas", 3
                 )
-            )
+            )*/
 
             //SistemasOperativos
             arregloSistemasOperativos.add(
                 SistemaOperativo(1, "Windows 10")
-            )
+            )/*
             arregloSistemasOperativos.add(
                 SistemaOperativo(2, "Windows 11")
             )
             arregloSistemasOperativos.add(
                 SistemaOperativo(3, "Linux")
-            )
+            )*/
 
         }
 
